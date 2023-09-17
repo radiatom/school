@@ -1,0 +1,36 @@
+.navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        height: 50px;
+    }
+    a {
+        color: white;
+        transition: color 0.3s;
+        &:hover {
+            color: #977864;
+        }
+    }
+    li,
+    a {
+        padding: 5px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    &__menu {
+        display: flex;
+        li {
+            color: white;
+            transition: color 0.3s;
+
+            &:hover {
+                color: #977864;
+            }
+        }
+    }
+    &__socialLinks {
+        display: flex;
+    }
+}
